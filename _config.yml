@@ -1,0 +1,14 @@
+title: Haitao Li
+description: PhD Student at Zhejiang University
+url: "https://cucl-2.github.io"
+baseurl: ""
+
+# Build settings
+theme: null
+plugins: []
+
+markdown: kramdown
+highlighter: rouge
+
+# SEO
+author: Haitao Li
