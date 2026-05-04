@@ -7,22 +7,21 @@
   <link rel="stylesheet" href="/assets/css/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link
-    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,400&family=Inter:wght@300;400;500;600&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,400&family=Inter:wght@300;400;500&display=swap"
     rel="stylesheet"
   />
 </head>
 <body>
 
-  <!-- Masthead accent bar -->
   <div class="masthead-bar"></div>
 
-  <!-- NAV -->
   <nav>
     <div class="nav-inner">
       <span class="nav-mono">HL</span>
       <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
         <li><a href="#publications">Publications</a></li>
         <li><a href="#honors">Honors</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -32,10 +31,9 @@
 
   <main>
 
-    <!-- ══════════ HERO ══════════ -->
+    <!-- HERO -->
     <section id="about" class="hero">
       <div class="hero-grid">
-
         <div class="hero-text">
           <p class="hero-eyebrow">PhD Candidate · Computer Science · Zhejiang University</p>
           <h1 class="hero-name">Haitao Li</h1>
@@ -44,6 +42,8 @@
           <p class="hero-bio">
             Third-year PhD student at the Department of Computer Science and Technology,
             <strong>Zhejiang University</strong>, advised by Prof.&nbsp;Zhengxing Huang.
+            Also affiliated with <strong>Shanghai Innovation Institute</strong>,
+            under the supervision of Prof.&nbsp;Xie Chen (X-Lance, SJTU).
             B.Eng. in Automation from Zhejiang University, June 2023.
           </p>
           <p class="hero-bio">
@@ -60,22 +60,18 @@
             <a href="https://scholar.google.com/citations?user=KM4nFIUAAAAJ" class="arrow-link" target="_blank">→ Google Scholar</a>
           </div>
         </div>
-
         <div class="hero-avatar-wrap">
-          <!-- Replace with: <img src="/assets/img/avatar.jpg" alt="Haitao Li" /> -->
-          <div class="avatar-box">HL</div>
+          <img src="/assets/img/avatar.jpg" alt="Haitao Li" />
         </div>
-
       </div>
     </section>
 
-    <!-- ══════════ EDUCATION ══════════ -->
+    <!-- EDUCATION -->
     <section id="education" class="section">
       <div class="sec-header">
         <span class="sec-label">Education</span>
         <div class="sec-rule"></div>
       </div>
-
       <div class="edu-list">
         <div class="edu-item">
           <div class="edu-year">2023<br/><span>Present</span></div>
@@ -86,27 +82,67 @@
           </div>
         </div>
         <div class="edu-item">
+          <div class="edu-year">2024<br/><span>Present</span></div>
+          <div class="edu-body">
+            <strong>Visiting Researcher</strong>
+            <p>Shanghai Innovation Institute</p>
+            <p class="edu-school">上海创智学院 · Supervised by Prof. Xie Chen (X-Lance, SJTU)</p>
+          </div>
+        </div>
+        <div class="edu-item">
           <div class="edu-year">2019<br/><span>2023</span></div>
           <div class="edu-body">
             <strong>B.Eng. in Automation</strong>
             <p>College of Control Science and Engineering</p>
             <p class="edu-school">Zhejiang University · <em>Outstanding Graduate</em></p>
+            <p class="edu-school">GPA: 4.46 / 5 &nbsp;·&nbsp; Rank: 3 / 80 (top 5%)</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ══════════ PUBLICATIONS ══════════ -->
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <div class="sec-header">
+        <span class="sec-label">Industry Experience</span>
+        <div class="sec-rule"></div>
+      </div>
+      <div class="edu-list">
+        <div class="edu-item">
+          <div class="edu-year">2026.02<br/><span>Present</span></div>
+          <div class="edu-body">
+            <strong>Tencent &nbsp;·&nbsp; Hunyuan Multimodal</strong>
+            <p>Research Intern</p>
+          </div>
+        </div>
+        <div class="edu-item">
+          <div class="edu-year">2025.06<br/><span>2025.11</span></div>
+          <div class="edu-body">
+            <strong>Ant Group &nbsp;·&nbsp; Bailing LLM</strong>
+            <p>Research Intern</p>
+          </div>
+        </div>
+        <div class="edu-item">
+          <div class="edu-year">2022.09<br/><span>2023.02</span></div>
+          <div class="edu-body">
+            <strong>Alibaba &nbsp;·&nbsp; Quark Search</strong>
+            <p>Research Intern</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PUBLICATIONS -->
     <section id="publications" class="section">
       <div class="sec-header">
         <span class="sec-label">Publications</span>
         <div class="sec-rule"></div>
       </div>
 
-      <!-- ── Category 1: Speech & Multimodal LLM ── -->
+      <!-- 1. Speech -->
       <div class="pub-category">
         <div class="pub-cat-label">
-          <span class="cat-icon">🎙</span> Speech &amp; Multimodal Large Language Models
+          <span class="cat-icon">🎙</span>&thinsp;Speech &amp; Multimodal Large Language Models
         </div>
         <div class="pub-list">
 
@@ -118,6 +154,7 @@
               </div>
               <p class="pub-title">ReStyle-TTS: Relative and Continuous Style Control for Zero-Shot Speech Synthesis</p>
               <p class="pub-authors"><strong>Haitao Li</strong>, Chunxiang Jin, Chenglin Li, Wenhao Guan, Zhengxing Huang, Xie Chen</p>
+              <div class="pub-links"><a href="https://arxiv.org/abs/2601.03632" target="_blank">arXiv →</a></div>
             </div>
           </div>
 
@@ -128,17 +165,18 @@
                 <span class="venue v-conf">ACL 2026</span>
               </div>
               <p class="pub-title">VideoPro: Adaptive Program Reasoning for Long Video Understanding</p>
-              <p class="pub-authors">Chenglin Li, Fengyi Han, Yujia Wang, Ruichuan Li, Shuo Dong, Hang Hou, <strong>Haitao Li</strong>, Qingpei Chen, Fei Tao, Jianxin Tong, et al.</p>
+              <p class="pub-authors">Chenglin Li, Fengyi Han, Yujia Wang, Ruichuan Li, Shuo Dong, Hang Hou, <strong>Haitao Li</strong>, et al.</p>
+              <div class="pub-links"><a href="https://arxiv.org/abs/2509.17743" target="_blank">arXiv →</a></div>
             </div>
           </div>
 
         </div>
       </div>
 
-      <!-- ── Category 2: ECG Multimodal LLM ── -->
+      <!-- 2. ECG -->
       <div class="pub-category">
         <div class="pub-cat-label">
-          <span class="cat-icon">💓</span> ECG Multimodal Large Language Models
+          <span class="cat-icon">📈</span>&thinsp;ECG Multimodal Large Language Models
         </div>
         <div class="pub-list">
 
@@ -150,6 +188,7 @@
               </div>
               <p class="pub-title">anyECG-chat: A Generalist ECG-MLLM for Flexible ECG Input and Multi-Task Understanding</p>
               <p class="pub-authors"><strong>Haitao Li</strong>, Ziyu Li, Yiheng Mao, Ziyi Liu, Zhoujian Sun, Zhengxing Huang</p>
+              <div class="pub-links"><a href="https://arxiv.org/abs/2506.00942" target="_blank">arXiv →</a></div>
             </div>
           </div>
 
@@ -180,18 +219,6 @@
             <div class="pub-num">04</div>
             <div class="pub-body">
               <div class="pub-meta">
-                <span class="venue v-arxiv">arXiv 2024</span>
-              </div>
-              <p class="pub-title">De-biased Multimodal Electrocardiogram Analysis</p>
-              <p class="pub-authors"><strong>Haitao Li</strong>, Ziyu Li, Yiheng Mao, Ziyi Liu, Zhoujian Sun, Zhengxing Huang</p>
-              <div class="pub-links"><a href="https://arxiv.org/abs/2411.14795" target="_blank">arXiv →</a></div>
-            </div>
-          </div>
-
-          <div class="pub-item">
-            <div class="pub-num">05</div>
-            <div class="pub-body">
-              <div class="pub-meta">
                 <span class="venue v-journal">NEJM AI</span>
               </div>
               <p class="pub-title">Translating Electrocardiograms to Cardiac Magnetic Resonance Imaging Useful for Cardiac Assessment and Disease Screening: A Multi-Center Study</p>
@@ -200,35 +227,24 @@
           </div>
 
           <div class="pub-item">
-            <div class="pub-num">06</div>
+            <div class="pub-num">05</div>
             <div class="pub-body">
               <div class="pub-meta">
                 <span class="venue v-journal">npj Digital Medicine</span>
               </div>
               <p class="pub-title">AI Modeling Photoplethysmography to Electrocardiography Useful for Predicting Cardiovascular Disease</p>
               <p class="pub-authors">Zhengyao Ding, Yujian Hu, Ziyu Li, Yiheng Mao, <strong>Haitao Li</strong>, et al.</p>
-            </div>
-          </div>
-
-          <div class="pub-item">
-            <div class="pub-num">07</div>
-            <div class="pub-body">
-              <div class="pub-meta">
-                <span class="venue v-arxiv">arXiv 2024</span>
-              </div>
-              <p class="pub-title">Large-Scale Cross-Modality Pretrained Model Enhances Cardiovascular State Estimation and Cardiomyopathy Detection from Electrocardiograms</p>
-              <p class="pub-authors">Zhengyao Ding, Yujian Hu, Youyao Xu, Chengchen Zhao, Ziyu Li, Yiheng Mao, <strong>Haitao Li</strong>, et al.</p>
-              <div class="pub-links"><a href="https://arxiv.org" target="_blank">arXiv →</a></div>
+              <div class="pub-links"><a href="https://www.nature.com/articles/s41746-025-02228-3" target="_blank">Paper →</a></div>
             </div>
           </div>
 
         </div>
       </div>
 
-      <!-- ── Category 3: Medical Image Segmentation ── -->
+      <!-- 3. Medical Image / CV -->
       <div class="pub-category">
         <div class="pub-cat-label">
-          <span class="cat-icon">🧠</span> Medical Image Segmentation with Missing Modalities
+          <span class="cat-icon">🔬</span>&thinsp;Medical Image / Computer Vision
         </div>
         <div class="pub-list">
 
@@ -237,10 +253,11 @@
             <div class="pub-body">
               <div class="pub-meta">
                 <span class="venue v-oral">MICCAI 2025</span>
-                <span class="pub-tag">Oral Presentation</span>
+                <span class="pub-tag">Oral</span>
               </div>
               <p class="pub-title">DC-Seg: Disentangled Contrastive Learning for Brain Tumor Segmentation with Missing Modalities</p>
               <p class="pub-authors"><strong>Haitao Li</strong>, Ziyu Li, Yiheng Mao, Zhengyao Ding, Zhengxing Huang</p>
+              <div class="pub-links"><a href="https://arxiv.org/abs/2505.11921" target="_blank">arXiv →</a></div>
             </div>
           </div>
 
@@ -252,6 +269,7 @@
               </div>
               <p class="pub-title">Phenotype-Guided Generative Model for High-Fidelity Cardiac MRI Synthesis: Advancing Pretraining and Clinical Applications</p>
               <p class="pub-authors">Ziyu Li, Yujian Hu, Zhengyao Ding, Yiheng Mao, <strong>Haitao Li</strong>, Fan Yi, Hongkun Zhang, Zhengxing Huang</p>
+              <div class="pub-links"><a href="https://arxiv.org/abs/2505.03426" target="_blank">arXiv →</a></div>
             </div>
           </div>
 
@@ -272,42 +290,31 @@
 
     </section>
 
-    <!-- ══════════ HONORS ══════════ -->
+    <!-- HONORS -->
     <section id="honors" class="section">
       <div class="sec-header">
         <span class="sec-label">Honors &amp; Awards</span>
         <div class="sec-rule"></div>
       </div>
-
       <ul class="honors-list">
-        <li>
-          <span class="honor-year">2023</span>
-          <span>Outstanding Graduate of Zhejiang University</span>
-        </li>
-        <li>
-          <span class="honor-year">2022</span>
-          <span>Zhejiang Provincial Government Scholarship</span>
-        </li>
+        <li><span class="honor-year">2023</span><span>Outstanding Graduate of Zhejiang University</span></li>
+        <li><span class="honor-year">2022</span><span>Zhejiang Provincial Government Scholarship</span></li>
       </ul>
-
-      <div class="sec-header" style="margin-top: 3rem;">
+      <div class="sec-header" style="margin-top:2.5rem;">
         <span class="sec-label">Professional Activities</span>
         <div class="sec-rule"></div>
       </div>
-      <p class="activity-text">
-        <strong>Reviewer:</strong> ICML · NeurIPS · ACL ARR · ACM MM · MICCAI
-      </p>
+      <p class="activity-text"><strong>Reviewer:</strong> ICML · NeurIPS · ACL ARR · ACM MM · MICCAI</p>
     </section>
 
-    <!-- ══════════ CONTACT ══════════ -->
+    <!-- CONTACT -->
     <section id="contact" class="section">
       <div class="sec-header">
         <span class="sec-label">Contact</span>
         <div class="sec-rule"></div>
       </div>
       <p class="contact-text">
-        I am open to academic discussions, collaborations, and any form of exchange.
-        The best way to reach me is by email.
+        Open to academic discussions, collaborations, and any form of exchange.
       </p>
       <a href="mailto:lihaitao@zju.edu.cn" class="contact-email">lihaitao@zju.edu.cn</a>
     </section>
@@ -316,7 +323,7 @@
 
   <footer>
     <div class="footer-inner">
-      <span>Haitao Li · Zhejiang University · 2025</span>
+      <span>Haitao Li · Zhejiang University · 2026</span>
       <div class="footer-bar"></div>
     </div>
   </footer>
