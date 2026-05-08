@@ -296,10 +296,10 @@ main {
   top: -1px;
   white-space: nowrap;
 }
-.v-oral     { color: var(--cream); background: var(--ink); border-color: var(--ink); }
-.v-conf     { color: var(--cream); background: var(--ink); border-color: var(--ink); }
-.v-workshop { color: var(--cream); background: var(--ink); border-color: var(--ink); }
-.v-journal  { color: var(--cream); background: var(--ink); border-color: var(--ink); }
+.v-oral     { color: #1a3557; background: transparent; border-color: #1a3557; }
+.v-conf     { color: #1a3557; background: transparent; border-color: #1a3557; }
+.v-workshop { color: #1a3557; background: transparent; border-color: #1a3557; }
+.v-journal  { color: #1a3557; background: transparent; border-color: #1a3557; }
 .v-arxiv    { color: var(--ink-3); background: transparent; border-color: var(--ink-3); }
 
 .pub-tag {
@@ -312,6 +312,7 @@ main {
   padding: 1px 6px;
   vertical-align: middle;
   margin-left: 0.3em;
+  margin-right: 0.45em;
   position: relative;
   top: -1px;
 }
