@@ -284,17 +284,19 @@ main {
 
 .venue {
   display: inline-block;
-  font-size: 0.65rem;
+  font-family: var(--sans);
+  font-size: 0.62rem;
   font-weight: 700;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
-  padding: 1px 7px;
+  padding: 2px 7px;
   border: 2px solid;
   vertical-align: middle;
   margin-right: 0.45em;
   position: relative;
   top: -1px;
   white-space: nowrap;
+  border-radius: 2px;
 }
 .v-oral     { color: #fff; background: #1a3557; border-color: #1a3557; }
 .v-conf     { color: #fff; background: #1a3557; border-color: #1a3557; }
