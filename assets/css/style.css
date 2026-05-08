@@ -296,10 +296,10 @@ main {
   top: -1px;
   white-space: nowrap;
 }
-.v-oral     { color: #1a3557; background: transparent; border-color: #1a3557; }
-.v-conf     { color: #1a3557; background: transparent; border-color: #1a3557; }
-.v-workshop { color: #1a3557; background: transparent; border-color: #1a3557; }
-.v-journal  { color: #1a3557; background: transparent; border-color: #1a3557; }
+.v-oral     { color: #fff; background: #1a3557; border-color: #1a3557; }
+.v-conf     { color: #fff; background: #1a3557; border-color: #1a3557; }
+.v-workshop { color: #fff; background: #1a3557; border-color: #1a3557; }
+.v-journal  { color: #fff; background: #1a3557; border-color: #1a3557; }
 .v-arxiv    { color: var(--ink-3); background: transparent; border-color: var(--ink-3); }
 
 .pub-tag {
