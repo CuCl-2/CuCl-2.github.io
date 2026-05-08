@@ -328,6 +328,18 @@ main {
   margin-bottom: 0.22rem;
 }
 
+.pub-title-link {
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color 0.15s, border-color 0.15s;
+}
+.pub-title-link:hover {
+  color: var(--red);
+  border-bottom-color: var(--red);
+  text-decoration: none;
+}
+
 .pub-authors {
   font-size: 0.76rem;
   color: var(--ink-3);
