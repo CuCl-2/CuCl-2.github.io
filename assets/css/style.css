@@ -85,7 +85,7 @@ main {
    Hero
    ============================================================ */
 .hero {
-  padding: 3.5rem 0 3rem;
+  padding: 2.2rem 0 2rem;
   border-bottom: 1.5px solid var(--ink);
 }
 
@@ -106,9 +106,9 @@ main {
 
 .hero-name {
   font-family: var(--serif);
-  font-size: clamp(2.8rem, 7vw, 5rem);
+  font-size: clamp(1.8rem, 3.5vw, 2.5rem);
   font-weight: 900;
-  line-height: 0.92;
+  line-height: 1.1;
   letter-spacing: -0.02em;
   color: var(--ink);
   margin-bottom: 0.2rem;
@@ -175,7 +175,7 @@ main {
 /* ============================================================
    Section structure
    ============================================================ */
-.section { padding: 3rem 0 0; }
+.section { padding: 2rem 0 0; }
 
 .sec-header {
   display: flex;
@@ -223,11 +223,20 @@ main {
 .edu-body strong { font-size: 0.88rem; font-weight: 600; display: block; margin-bottom: 0.15rem; }
 .edu-body p { font-size: 0.8rem; color: var(--ink-2); line-height: 1.5; }
 .edu-school { color: var(--ink-3) !important; }
+.edu-school-main {
+  font-family: var(--serif);
+  font-size: 1.05rem !important;
+  font-weight: 700 !important;
+  color: var(--ink) !important;
+  letter-spacing: 0.01em;
+  display: block;
+  margin-bottom: 0.1rem;
+}
 
 /* ============================================================
    Publications — categories
    ============================================================ */
-.pub-category { margin-top: 1.75rem; }
+.pub-category { margin-top: 1.25rem; }
 
 .pub-cat-label {
   display: flex;
@@ -252,7 +261,7 @@ main {
   display: grid;
   grid-template-columns: 32px 1fr;
   gap: 1rem;
-  padding: 0.9rem 0;
+  padding: 0.65rem 0;
   border-bottom: 1px solid #d8d3cb;
   transition: background 0.12s;
 }
@@ -278,17 +287,17 @@ main {
 }
 
 .venue {
-  font-size: 0.6rem;
+  font-size: 0.7rem;
   font-weight: 700;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  padding: 1px 6px;
-  border: 1.5px solid;
+  padding: 2px 8px;
+  border: 2px solid;
 }
-.v-oral     { color: var(--red); border-color: var(--red); }
-.v-conf     { color: #1a3557;    border-color: #1a3557; }
-.v-workshop { color: #14532d;    border-color: #14532d; }
-.v-journal  { color: #6b3a00;    border-color: #6b3a00; }
+.v-oral     { color: var(--cream); background: var(--red); border-color: var(--red); }
+.v-conf     { color: var(--cream); background: #1a3557;    border-color: #1a3557; }
+.v-workshop { color: var(--cream); background: #14532d;    border-color: #14532d; }
+.v-journal  { color: var(--cream); background: #6b3a00;    border-color: #6b3a00; }
 .v-arxiv    { color: var(--ink-3); border-color: var(--ink-3); }
 
 .pub-tag {
