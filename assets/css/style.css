@@ -279,42 +279,48 @@ main {
 }
 
 .pub-meta {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  margin-bottom: 0.3rem;
-  flex-wrap: wrap;
+  display: none;
 }
 
 .venue {
-  font-size: 0.7rem;
+  display: inline-block;
+  font-size: 0.65rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  padding: 2px 8px;
+  padding: 1px 7px;
   border: 2px solid;
+  vertical-align: middle;
+  margin-right: 0.45em;
+  position: relative;
+  top: -1px;
+  white-space: nowrap;
 }
-.v-oral     { color: var(--cream); background: var(--red); border-color: var(--red); }
-.v-conf     { color: var(--cream); background: #1a3557;    border-color: #1a3557; }
-.v-workshop { color: var(--cream); background: #14532d;    border-color: #14532d; }
-.v-journal  { color: var(--cream); background: #6b3a00;    border-color: #6b3a00; }
-.v-arxiv    { color: var(--ink-3); border-color: var(--ink-3); }
+.v-oral     { color: var(--cream); background: var(--ink); border-color: var(--ink); }
+.v-conf     { color: var(--cream); background: var(--ink); border-color: var(--ink); }
+.v-workshop { color: var(--cream); background: var(--ink); border-color: var(--ink); }
+.v-journal  { color: var(--cream); background: var(--ink); border-color: var(--ink); }
+.v-arxiv    { color: var(--ink-3); background: transparent; border-color: var(--ink-3); }
 
 .pub-tag {
-  font-size: 0.58rem;
+  font-size: 0.6rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--cream);
-  background: var(--red);
+  color: var(--red);
+  border: 1.5px solid var(--red);
   padding: 1px 6px;
+  vertical-align: middle;
+  margin-left: 0.3em;
+  position: relative;
+  top: -1px;
 }
 
 .pub-title {
   font-family: var(--serif);
   font-size: 0.88rem;
   font-weight: 700;
-  line-height: 1.45;
+  line-height: 1.55;
   color: var(--ink);
   margin-bottom: 0.22rem;
 }
