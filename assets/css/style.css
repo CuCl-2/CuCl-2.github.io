@@ -4,7 +4,7 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --cream:  #f7f4ef;
+  --cream:  #ffffff;
   --ink:    #111111;
   --ink-2:  #444444;
   --ink-3:  #888888;
