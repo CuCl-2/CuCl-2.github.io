@@ -216,6 +216,10 @@ main {
   margin-top: 1px;
 }
 
+/* Logos whose artwork fills the whole canvas need padding to visually match
+   the others (which have built-in whitespace) */
+.edu-logo--tight { padding: 5px; }
+
 .edu-year {
   font-family: var(--serif);
   font-size: 0.78rem;
